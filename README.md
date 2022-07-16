@@ -5,10 +5,11 @@ Developed a sample framework which support to develop automation test scripts fo
 
 ## Libraries used:
   1. Java
-  2. Selenium
+  2. Selenium WebDriver
   3. TestNG
   4. Extentreports
   5. Maven
+  6. Appium
   
 ## Steps to start:
   1. Clone / Download the project into your local.
@@ -40,3 +41,4 @@ It is an ecommerce based web application where user can navigate or do following
   8. Used TestNG library for assertions & reporting.
   9. Added screenshots with emailable-report.
   10. Added Extentreports with screenshots.
+  11. Used Appium and real device to automate scripts.
