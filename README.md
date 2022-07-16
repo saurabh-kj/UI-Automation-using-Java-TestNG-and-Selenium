@@ -1,12 +1,4 @@
-# trell-shop-test-automation-suite
-
-
-
-## Getting started
-
-To make it easy for you to get started with Github, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+# UI-Automation-TestNG-Java for E-commerce based application
 
 ## Add your files
 
