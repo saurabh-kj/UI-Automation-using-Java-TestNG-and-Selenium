@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browser" value="${browsername}"></parameter>
+    <parameter name="environment" value="${env}"></parameter>
+
+    <test verbose="2" preserve-order="true" name="LoginTestCases">
+        <classes>
+
+            <class name="mobile_testcases.Common.HomePage"></class>
+            <class name="mobile_testcases.ProductListing.ProductListPageTestCases"></class>
+            <class name="mobile_testcases.Common.Search"></class>
+            <class name="mobile_testcases.Cart.CartTestCases"></class>
+            <class name="mobile_testcases.ProductListing.WishList"></class>
+            <class name="mobile_testcases.Login.LoginDifferentPages"></class>
+            <class name="mobile_testcases.Checkout.CheckoutPage"></class>
+            <class name="mobile_testcases.Orders.Orders"></class>
+            <!--            <class name="This is as per sanity file till here "></class>-->
+            <class name="mobile_testcases.ProductDetails.ExpectedDeliveryDate"></class>
+<!--            <class name="mobile_testcases.Common.GuestUser"></class>-->
+            <class name="mobile_testcases.ProductDetails.PdpPrdctAllDetails"></class>
+            <class name="mobile_testcases.ProductDetails.ProductAllImages"></class>
+            <class name="mobile_testcases.ProductDetails.ProductAllVideoReview"></class>
+            <class name="mobile_testcases.ProductDetails.QuantitySizeShare"></class>
+            <class name="mobile_testcases.BestPrice"></class>
+            <class name="mobile_testcases.ProductListing.Filters.FilterByBrandName"></class>
+            <class name="mobile_testcases.ProductListing.Filters.FilterByCategory"></class>
+            <class name="mobile_testcases.ProductListing.Filters.FilterByGender"></class>
+            <class name="mobile_testcases.ProductListing.Filters.FilterByPrice"></class>
+            <class name="mobile_testcases.ProductListing.Filters.ResetFilter"></class>
+            <class name="mobile_testcases.ProductListing.Sort.SortByAlphabeticallyAtoZ"></class>
+            <class name="mobile_testcases.ProductListing.Sort.SortByAlphabeticallyZtoA"></class>
+            <class name="mobile_testcases.ProductListing.Sort.SortByDiscount"></class>
+            <class name="mobile_testcases.ProductListing.Sort.SortByPriceHighToLow"></class>
+            <class name="mobile_testcases.ProductListing.Sort.SortByPriceLowToHigh"></class>
+            <class name="mobile_testcases.ProductListing.Sort.SortByRelevance"></class>
+<!--            <class name="mobile_testcases.Login.LoginTestCases"></class>-->
+        </classes>
+    </test>
+</suite>

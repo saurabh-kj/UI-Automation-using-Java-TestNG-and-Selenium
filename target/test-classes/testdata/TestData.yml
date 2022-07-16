@@ -1,0 +1,9 @@
+LoginDetails:
+  mobile: "9999999999"
+  otp: "987699"
+ProductDetails:
+  productName: "Fragrances"
+
+MethodLoggerStart:
+  MethodLogStart: "StartOfLog"
+  MethodLogEnd: "EndOfTheLog"
