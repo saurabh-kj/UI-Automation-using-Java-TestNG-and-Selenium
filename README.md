@@ -1,16 +1,5 @@
 # UI-Automation-TestNG-Java for E-commerce based application
 
-## Add your files
-
-push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://gitlab.com/trell/trell-shop-test-automation-suite.git
-git branch -M main
-git push -uf origin main
-```
-
 # Objective
 Developed a sample framework which support to develop automation test scripts for functional testing.
 
